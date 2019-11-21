@@ -6,6 +6,9 @@
  */
 
 /* Hide submenu, leave this to kmom02 */
+
+
+
 .rm-desktop ul {
     display: none;
 }
@@ -13,4 +16,114 @@
 /* Hide responsive/mobile menu, leave this to kmom02 */
 .rm-navbar-max {
     display: none;
+}
+
+html {
+    background-color: rgb(158, 235, 156);
+
+}
+
+body {
+    background-color: #EDFFF1;
+    text-decoration-color: black;
+    line-height: 1.4;
+}
+
+.wrap-all {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    width: 33%;
+    float: left;
+}
+
+.my-navbar a {
+    text-decoration: none;
+    margin: 25px;
+    float:left;
+    font-family: "Arial";
+    font-size: 1.5em;
+}
+
+.site-logo {
+    display: none;
+}
+
+.author-byline {
+	overflow: auto;
+	border: solid black;
+	display: inline-table;
+	width: 66%;
+}
+
+.author-byline img {
+    float: left;
+    margin: 10px;
+}
+
+.rm-navbar ul {
+    list-style: none;
+}
+
+@media (max-width: 900px) {
+    body {
+        width: auto;
+    }
+}
+
+.toc ul {
+    list-style: none;
+}
+
+.toc {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 24px;
+}
+
+.outer-wrap outer-wrap-footer {
+    border: solid;
+}
+
+.region-footer {
+    float: left;
+}
+
+.region-sidebar-left {
+    display: inline;
+    float: left;
+    width: 30%;
+    margin-bottom: 10%;
+    overflow: auto;
+}
+
+
+
+.inner-wrap-main {
+    padding-bottom: 365px;
+}
+
+.toc .section-header {
+	font-weight: 700;
+	border-bottom: 1px solid #eee;
+	margin-top: 24px;
+	margin-bottom: 12px;
+}
+
+.a:hover {
+    color: red;
+}
+
+.article {
+    margin: 10px;
+    display: inline;
+    width: 66%;
+    float: left;
+}
+.next-previous {
+    text-align: right;
+
 }
